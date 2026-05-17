@@ -1,6 +1,6 @@
 cask "webfinder" do
-  version "1.3.2"
-  sha256 "e97c73d2252f048cf0373fcade4b9636c35a1a7095543612e53fdd81dd5569a0"
+  version "1.3.3"
+  sha256 "712024bd19c53335e9b26256e164bce14e3241b1d25b20c7fc7a1216cb20f298"
 
   url "https://github.com/zeulewan/web-finder/releases/download/v#{version}/WebFinder.app.zip"
   name "WebFinder for Tailscale"
@@ -8,6 +8,7 @@ cask "webfinder" do
   homepage "https://github.com/zeulewan/web-finder"
 
   depends_on macos: :ventura
+  depends_on formula: "web-finder"
 
   app "WebFinder.app"
 
