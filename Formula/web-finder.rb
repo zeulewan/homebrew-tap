@@ -2,7 +2,7 @@ class WebFinder < Formula
   desc "Publish and discover WebFinder services on Tailscale"
   homepage "https://github.com/zeulewan/web-finder"
   url "https://github.com/zeulewan/web-finder/archive/refs/tags/v1.3.5.tar.gz"
-  sha256 "40e97b680cb996d87da5df7c5f1d282362a67c37439d48ab00f8c5185e943b0c"
+  sha256 "e738fb066227a295eb627900f24822c0f6a8e64db900dd0219f892f8ded22635"
   license "MIT"
 
   depends_on "node"
