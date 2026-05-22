@@ -1,6 +1,6 @@
 cask "webfinder" do
-  version "1.3.5"
-  sha256 "8556828997d5c978911553826b581af074280765e31a3d22aaf766dcbf100d6b"
+  version "1.3.8"
+  sha256 "9a21ff6a2ba673cd80190381394301bcb826938c1972b5a85f1050571faf9e0b"
 
   url "https://github.com/zeulewan/web-finder/releases/download/v#{version}/WebFinder.app.zip"
   name "WebFinder for Tailscale"
